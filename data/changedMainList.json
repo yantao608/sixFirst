@@ -1,0 +1,34 @@
+{
+  "list": [
+    {
+      "imageUrl":"http://www.abcdlook.com/images/taoge.png",
+      "title":"Rufus",
+      "clickedUrl":"www.baidu.com",
+      "isLocked":false
+    },
+    {
+      "imageUrl":"http://www.abcdlook.com/images/taoge.png",
+      "title":"baidu",
+      "clickedUrl":"www.baidu.com",
+      "isLocked":false
+    },
+    {
+      "imageUrl":"http://www.abcdlook.com/images/taoge.png",
+      "title":"facebook",
+      "clickedUrl":"www.facebook.com",
+      "isLocked":true
+    },
+    {
+      "imageUrl":"http://www.abcdlook.com/images/taoge.png",
+      "title":"google",
+      "clickedUrl":"www.google.com",
+      "isLocked":false
+    },
+    {
+      "imageUrl":"http://www.abcdlook.com/images/taoge.png",
+      "title":"netease",
+      "clickedUrl":"www.netease.com",
+      "isLocked":false
+    }
+  ]
+}

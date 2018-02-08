@@ -1,20 +1,17 @@
 {
-  "name": "sixblog",
-  "version": "1.0.0",
-  "description": "node server",
-  "main": "server.js",
+  "name": "sixblog1",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yantao608/sixFirst.git"
-  },
-  "author": "taoge",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yantao608/sixFirst/issues"
-  },
-  "homepage": "https://github.com/yantao608/sixFirst#readme"
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  }
 }
