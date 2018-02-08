@@ -1,0 +1,20 @@
+{
+  "name": "sixblog",
+  "version": "1.0.0",
+  "description": "node server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yantao608/sixFirst.git"
+  },
+  "author": "taoge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yantao608/sixFirst/issues"
+  },
+  "homepage": "https://github.com/yantao608/sixFirst#readme"
+}
