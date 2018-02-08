@@ -24,7 +24,6 @@ router.get('/', function(req, res) {
         responseData['changedMainList'] = changedMainList['list'];
     }
 
-    console.log(responseData);
     res.json(responseData);
 });
 
