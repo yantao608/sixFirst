@@ -19,6 +19,7 @@ router.get('/', function(req, res) {
         responseData['recDesc'] = 'error data';
     }else{
         responseData['retCode'] = 200;
+	responseData['shareMessage'] = 'Download to explore more free sexy girls&videos http://159.89.153.48/originalData/Webmate.apk';
         responseData['recDesc'] = 'success';
         responseData['mainList'] = mainList['list'];
         responseData['changedMainList'] = changedMainList['list'];

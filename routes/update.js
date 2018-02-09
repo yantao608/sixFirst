@@ -10,6 +10,7 @@ router.post('/', function(req, res, next) {
       responseData['retCode'] = 200;
       responseData['recDesc'] = 'this app has new Version, Please update';
       responseData['isForce'] = false;
+      responseData['downLoadUrl'] = 'http://159.89.153.48/originalData/Webmate.apk';
     }else {
       responseData['retCode'] = 201;
       responseData['recDesc'] = 'no update';
